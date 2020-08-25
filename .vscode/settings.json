@@ -1,0 +1,5 @@
+{
+    "staticWebApps.appSubpath": "frontend",
+    "staticWebApps.apiSubpath": "",
+    "staticWebApps.appArtifactSubpath": "dist/frontend"
+}
