@@ -1,5 +1,12 @@
 {
     "staticWebApps.appSubpath": "frontend",
     "staticWebApps.apiSubpath": "",
-    "staticWebApps.appArtifactSubpath": "dist/frontend"
+    "staticWebApps.appArtifactSubpath": "dist/frontend",
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune"
+    
 }
